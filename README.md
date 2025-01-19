@@ -1,8 +1,8 @@
 # 🐞Welcome to my repository!🐞
 
----
+***
 
-# 👋 Hi, I'm [Sahil Murmu]!
+# 👋 Hi, I'm Sahil Murmu!
 
 Welcome to my GitHub profile! I'm a **Computer Science Engineering Student** with a primary passion for **Artificial Intelligence**, **Machine Learning**, and **Deep Learning** and secondarily **anything that attracts my attention**. I enjoy solving complex problems, learning new technologies, and building projects that make a difference.
 

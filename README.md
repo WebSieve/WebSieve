@@ -1,4 +1,5 @@
-# Welcome to my Github profile! - https://img.shields.io/badge/Welcome%20to%20my%20Github%20profile!?style=for-the-badge
+# ![Static Badge](https://img.shields.io/badge/Welcome%20to%20my%20repository!-%235D365D)
+
 
 
 

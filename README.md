@@ -1,6 +1,6 @@
 ***
 
-![# 🐞Welcome to my repository!🐞]("C:\Users\msahi\OneDrive\Desktop\Images\482571.jpg")
+![🐞Welcome to my repository!🐞]("C:\Users\msahi\OneDrive\Desktop\Images\482571.jpg")
 
 ***
 

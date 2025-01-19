@@ -1,4 +1,4 @@
-![Build Status](https://github.com/username/repo/actions/workflows/main.yml/badge.svg)
+![Build Status](https://img.shields.io/badge/Welcome%20to%20my%20Github%20profile!)
 
 ***
 

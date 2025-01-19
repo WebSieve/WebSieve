@@ -1,6 +1,10 @@
+### 🐞Welcome to my repository!🐞
+
+---
+
 # 👋 Hi, I'm [Sahil Murmu]!
 
-Welcome to my GitHub profile! I'm a **Computer Science Engineering Student** with a passion for **Artificial Intelligence**, **Machine Learning**, and **Deep Learning**. I enjoy solving complex problems, learning new technologies, and building projects that make a difference.
+Welcome to my GitHub profile! I'm a **Computer Science Engineering Student** with a primary passion for **Artificial Intelligence**, **Machine Learning**, and **Deep Learning** and secondarily **anything that attracts my attention**. I enjoy solving complex problems, learning new technologies, and building projects that make a difference.
 
 ---
 
@@ -33,8 +37,8 @@ Welcome to my GitHub profile! I'm a **Computer Science Engineering Student** wit
 
 ## 📫 Let's Connect!
 
-- **Instagram**: [Your LinkedIn URL](#)
-- **Portfolio**: [Your Portfolio URL](#)
+- **Instagram**: [https://www.instagram.com/d_.i.v.i.n.i.t._y?igsh=aHU0bHg4eWN3eXJi&utm_source=qr](#)
+- **Portfolio**: [Ain't no portfolio email yet.](#)
 - **Email**: [msahil2603@gmail.com](mailto:youremail@example.com)
 
 Feel free to explore my repositories, star the ones you like, and fork the ones you want to contribute to. Let's build something amazing together!
@@ -42,6 +46,6 @@ Feel free to explore my repositories, star the ones you like, and fork the ones 
 ---
 
 ### ✨ Fun Fact
-I love exploring mysteries, thrillers, and fantasy stories during my free time, which sparks my creativity and inspires my coding adventures.
+A very enthusiastic and curious learner capable of learning anything that attracts my attention. Always yearning for perfection in my work and life.
 
 Thanks for visiting! 🌟

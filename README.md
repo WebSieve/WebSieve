@@ -1,4 +1,4 @@
-'<div style="background-image: url('https://images.unsplash.com/photo-1735580825884-5b7ad8b5e551?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); padding: 20px; color: white; text-align: center;">'
+'<div style="background-image: url('https://images.unsplash.com/photo-1735580825884-5b7ad8b5e551?q=80&w=2069&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D'); padding: 20px; color: white; text-align: center;">
 
 ***
 
@@ -53,3 +53,5 @@ Feel free to explore my repositories, star the ones you like, and fork the ones 
 A very enthusiastic and curious learner capable of learning anything that attracts my attention. Always yearning for perfection in my work and life.
 
 Thanks for visiting! 🌟
+
+</div>'

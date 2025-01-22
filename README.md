@@ -1,60 +1,41 @@
-# ![Static Badge](https://img.shields.io/badge/Welcome%20to%20my%20repository!-%235D365D)
+<h1 align="center">Hi 👋, I'm Sahil</h1>
+<h3 align="center">A passionate, enthusiastic and curious learner.</h3>
 
+<p align="left"> <img src="https://komarev.com/ghpvc/?username=websieve&label=Profile%20views&color=0e75b6&style=flat" alt="websieve" /> </p>
 
+<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=websieve" alt="websieve" /></a> </p>
 
+- 🔭 I’m currently working on [AI_ML type shi]((ain't no link))
 
-***
+- 🌱 I’m primarily learning ** AI_ML and secondarily everything.**
 
-#🐞Welcome to my repository!🐞
+- 👯 I’m looking to collaborate on [AL_ML type shi]((still no link blud))
 
-***
+- 🤝 I’m looking for help with [AI_ML type shi]((nah))
 
-# 👋 Hi, I'm Sahil Murmu!
+- 👨‍💻 All of my projects are available in (my head!!)
 
-Welcome to my GitHub profile! I'm a **Computer Science Engineering Student** with a primary passion for **Artificial Intelligence**, **Machine Learning**, and **Deep Learning** and secondarily **anything that attracts my attention**. I enjoy solving complex problems, learning new technologies, and building projects that make a difference.
+- 📝 I regularly write articles on nothing (I like to think and talk about deep topics and I like to read story or philosophical books)
 
----
+- 💬 Ask me about **nothing (you can ask me about meme or brainrot)**
 
-## 🛠️ Skills and Interests
+- 📫 How to reach me **find me in the abandoned places or dark places.**
 
-- **Programming Languages**: Python, Java, C++, JavaScript
-- **AI/ML Tools**: TensorFlow, PyTorch, Scikit-learn, OpenCV
-- **Web Development**: HTML, CSS, JavaScript, React.js
-- **Databases**: MySQL, MongoDB
-- **Version Control**: Git, GitHub
+- 📄 Know about my experiences ( wanna play BGMI )
 
----
+- ⚡ Fun fact **numerous.**
 
-## 🌟 What You'll Find Here
+<h3 align="left">Connect with me:</h3>
+<p align="left">
+<a href="https://kaggle.com/(i don't remember)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="(i don't remember)" height="30" width="40" /></a>
+<a href="https://instagram.com/(nah)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="(nah)" height="30" width="40" /></a>
+</p>
 
-- 📚 **AI & Machine Learning Projects**: Implementations of ML models and innovative AI solutions.
-- 🚀 **College Projects**: Exciting academic projects showcasing my problem-solving and coding skills.
-- 🌌 **Fun Explorations**: Creative experiments with coding, like mini-games, simulations, and more.
-- 📸 **Image Generation and Vision Projects**: Exploring image processing, computer vision, and generative AI.
+<h3 align="left">Languages and Tools:</h3>
+<p align="left"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.qt.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
 
----
+<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=websieve&show_icons=true&locale=en&layout=compact" alt="websieve" /></p>
 
-## 💡 Goals
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=websieve&show_icons=true&locale=en" alt="websieve" /></p>
 
-- 🔍 Explore state-of-the-art techniques.
-- 🌱 Contribute to open-source projects and grow within the developer community.
-- 🧠 Stay updated with the latest trends in AI and software development.
-
----
-
-## 📫 Let's Connect!
-
-- **Instagram**: [https://www.instagram.com/d_.i.v.i.n.i.t._y?igsh=aHU0bHg4eWN3eXJi&utm_source=qr](#)
-- **Portfolio**: [Ain't no portfolio email yet.](#)
-- **Email**: [msahil2603@gmail.com](mailto:youremail@example.com)
-
-Feel free to explore my repositories, star the ones you like, and fork the ones you want to contribute to. Let's build something amazing together!
-
----
-
-### ✨ Fun Fact
-A very enthusiastic and curious learner capable of learning anything that attracts my attention. Always yearning for perfection in my work and life.
-
-Thanks for visiting! 🌟
-
-
+<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=websieve&" alt="websieve" /></p>

@@ -1,13 +1,17 @@
 <p align="center">
-  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN6cXo4dHFuYnhlYXU5a25sZ3E2MXNqanFiem16cnA0NG5ncjY3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif" alt="AI Header Image" width="100%">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaGI1MTg2cGx4dGhlbGNlcWZyMGwybWg3dmkyaXJydDZjdnlibGtsdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/zbWhAgfHFopXmO8O00/giphy.gif" alt="AI Image 2" style="height: 300px; width: 1000px;">
 </p>
+
+---
+# --------------------------hi! I'm Sahil Murmu. 🗿-------------------------
+---
 
 # 🚀 AI & Machine Learning Hub 🧠
 
 Welcome to the **AI & Machine Learning Hub**, your one-stop repository for cutting-edge projects in **Machine Learning**, **Deep Learning**, **Neural Networks**, and **Artificial Intelligence**! 🌟 This collection showcases innovative models, algorithms, and applications to solve real-world problems. Whether you're a beginner or a seasoned data scientist, dive in and explore the power of AI! 💻✨
 
 <p align="center">
-  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhkN2VqMjc2eWV5NzNnczBiYTUwOTRlZmdxZTE2dmszY3A3d3Q4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pOEbLRT4SwD35IELiQ/giphy.gif" alt="AI Animation" width="100%">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhkN2VqMjc2eWV5NzNnczBiYTUwOTRlZmdxZTE2dmszY3A3d3Q4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pOEbLRT4SwD35IELiQ/giphy.gif" alt="AI Animation" style="height: 300px; width: 1000px;">
 </p>
 
 ---
@@ -32,6 +36,11 @@ This repository is a curated collection of **AI-driven projects** that leverage 
 - 📚 Well-documented code with tutorials for learners.
 - 🌈 Diverse applications, from computer vision to generative AI.
 - 💡 Open to contributions from the global AI community!
+
+---
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExbTVpa2VrZTV2N2xmY2RwbzJoanVhOGxzdWY1ajk0YmZocXRzcWkyYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pIMlKqgdZgvo4/giphy.gif" alt="AI Image 1" style="height: 350px; width: 1000px;">
+</p>
 
 ---
 
@@ -65,6 +74,12 @@ Our projects are built with the latest tools and frameworks to ensure scalabilit
 - **Data Processing**: Pandas, NumPy, Matplotlib
 - **Cloud & Deployment**: AWS, Google Colab, Docker 🐳
 - **Version Control**: Git, GitHub
+
+---
+
+<p align="center">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN6cXo4dHFuYnhlYXU5a25sZ3E2MXNqanFiem16cnA0NG5ncjY3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif" alt="AI Header Image" style="height: 300px; width: 1000px;">
+</p>
 
 ---
 
@@ -109,5 +124,5 @@ We love contributions from the community! 🌟 Whether it’s adding new project
  4. Open a Pull Request `🚀`
 ---
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzI5eDZxZDI1NDIwMTg2Zm9icWlsZ3lyb3NvMGdiYnVnbnVyZTU4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7VzgMsB6FLCilwS30v/giphy.gif" alt="AI Footer Image" width="100%">
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMjFnNDI1cXg1OWc5YmJrcWhqdG1tOWx3Ymgxc2dkY3drcHlqNHgzOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/xTiTnxpQ3ghPiB2Hp6/giphy.gif" alt="AI Footer Image" style="height: 300px; width: 1000px;">
 </p>

@@ -1,41 +1,110 @@
-<h1 align="center">Hi 👋, I'm Sahil Murmu.</h1>
-<h3 align="center">A passionate, enthusiastic and curious learner.</h3>
-
-<p align="center"> <img src="https://komarev.com/ghpvc/?username=websieve&label=Profile%20views&color=0e75b6&style=flat" alt="websieve" /> </p>
-
-<p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=websieve" alt="websieve" /></a> </p>
-
-- 🔭 I’m currently working on [AI_ML type shi]((ain't no link))
-
-- 🌱 I’m primarily learning ** AI_ML and secondarily everything.**
-
-- 👯 I’m looking to collaborate on [AL_ML type shi]((still no link blud))
-
-- 🤝 I’m looking for help with [AI_ML type shi]((nah))
-
-- 👨‍💻 All of my projects are available in (my head!!)
-
-- 📝 I regularly write articles on nothing (I like to think and talk about deep topics and I like to read story or philosophical books)
-
-- 💬 Ask me about **nothing (you can ask me about meme or brainrot)**
-
-- 📫 How to reach me **find me in the abandoned places or dark places.**
-
-- 📄 Know about my experiences ( wanna play BGMI )
-
-- ⚡ Fun fact **numerous.**
-
-<h3 align="center">Connect with me:</h3>
 <p align="center">
-<a href="https://kaggle.com/(i don't remember)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/kaggle.svg" alt="(i don't remember)" height="30" width="40" /></a>
-<a href="https://instagram.com/(nah)" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="(nah)" height="30" width="40" /></a>
+  <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaDN6cXo4dHFuYnhlYXU5a25sZ3E2MXNqanFiem16cnA0NG5ncjY3NyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/QpVUMRUJGokfqXyfa1/giphy.gif" alt="AI Header Image" width="100%">
 </p>
 
-<h3 align="center">Languages and Tools:</h3>
-<p align="center"> <a href="https://www.w3schools.com/cpp/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.w3schools.com/css/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original-wordmark.svg" alt="css3" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://opencv.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/opencv/opencv-icon.svg" alt="opencv" width="40" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/2ae2a900d2f041da66e950e4d48052658d850630/icons/pandas/pandas-original.svg" alt="pandas" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> <a href="https://pytorch.org/" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/pytorch/pytorch-icon.svg" alt="pytorch" width="40" height="40"/> </a> <a href="https://www.qt.io/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/> </a> <a href="https://reactjs.org/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg" alt="react" width="40" height="40"/> </a> <a href="https://scikit-learn.org/" target="_blank" rel="noreferrer"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg" alt="scikit_learn" width="40" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://seaborn.pydata.org/_images/logo-mark-lightbg.svg" alt="seaborn" width="40" height="40"/> </a> <a href="https://www.tensorflow.org" target="_blank" rel="noreferrer"> <img src="https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg" alt="tensorflow" width="40" height="40"/> </a> </p>
+# 🚀 AI & Machine Learning Hub 🧠
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=websieve&show_icons=true&locale=en&layout=compact" alt="websieve" /></p>
+Welcome to the **AI & Machine Learning Hub**, your one-stop repository for cutting-edge projects in **Machine Learning**, **Deep Learning**, **Neural Networks**, and **Artificial Intelligence**! 🌟 This collection showcases innovative models, algorithms, and applications to solve real-world problems. Whether you're a beginner or a seasoned data scientist, dive in and explore the power of AI! 💻✨
 
-<p>&nbsp;<img align="left" src="https://github-readme-stats.vercel.app/api?username=websieve&show_icons=true&locale=en" alt="websieve" /></p>
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3dqMG9keTd4Ymc3dWo1ZTlreGV1OXpqYW0zaDZkNXR5MHY5MG8zcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AdtB8TtizElk0OrRGR/giphy.gif" alt="AI Animation" width="100%">
+</p>
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=websieve&" alt="websieve" /></p>
+---
+
+## 📌 Table of Contents
+- [About the Repository](#about-the-repository)
+- [Projects Overview](#projects-overview)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [Contributing](#contributing)
+- [Connect with Us](#connect-with-us)
+- [License](#license)
+
+---
+
+## 🌍 About the Repository
+
+This repository is a curated collection of **AI-driven projects** that leverage **machine learning**, **deep learning**, and **neural networks** to tackle exciting challenges. From image recognition to natural language processing, our projects push the boundaries of what's possible with AI. 🚀
+
+**Why explore this repo?**
+- 🧑‍💻 Hands-on implementations of state-of-the-art algorithms.
+- 📚 Well-documented code with tutorials for learners.
+- 🌈 Diverse applications, from computer vision to generative AI.
+- 💡 Open to contributions from the global AI community!
+
+---
+
+## 🛠️ Projects Overview
+
+Here’s a glimpse of the projects you’ll find in this repository:
+
+| Project Name | Description | Tech Used | Status |
+|--------------|-------------|-----------|--------|
+| 🖼️ **Image Classifier** | A CNN-based model for classifying images into categories. | TensorFlow, Keras, Python | ✅ Completed |
+| 📝 **Text Summarizer** | A transformer-based NLP model for summarizing articles. | PyTorch, Hugging Face | 🛠️ In Progress |
+| 🎵 **Music Generator** | A GAN that generates unique music tracks. | TensorFlow, Magenta | ✅ Completed |
+| 🤖 **Chatbot** | A conversational AI using RNNs and attention mechanisms. | PyTorch, NLTK | 🛠️ In Progress |
+| 📈 **Stock Predictor** | A time-series model for stock price forecasting. | Scikit-learn, Pandas | ✅ Completed |
+
+> **Note**: Each project folder contains its own README with detailed setup instructions and datasets. Check them out! 📂
+
+---
+
+## 🧰 Tech Stack
+
+Our projects are built with the latest tools and frameworks to ensure scalability and performance:
+
+- **Languages**: 🐍 Python, R
+- **ML/DL Frameworks**: 
+  - ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=flat&logo=TensorFlow&logoColor=white)
+  - ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=flat&logo=PyTorch&logoColor=white)
+  - ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=flat&logo=Keras&logoColor=white)
+  - ![Scikit-learn](https://img.shields.io/badge/Scikit--learn-%23F7931E.svg?style=flat&logo=scikit-learn&logoColor=white)
+- **NLP**: Hugging Face 🤗, NLTK, SpaCy
+- **Data Processing**: Pandas, NumPy, Matplotlib
+- **Cloud & Deployment**: AWS, Google Colab, Docker 🐳
+- **Version Control**: Git, GitHub
+
+---
+
+## 🚀 Getting Started
+
+Ready to dive into the world of AI? Follow these steps to set up the repository locally:
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/your-username/ai-ml-hub.git
+   cd ai-ml-hub
+   ```
+2. **Install Dependencies**:
+   ```bash
+   python -m venv venv
+   ```
+# Activate the virtual environment:
+# On Linux/macOS:
+```
+  source venv/bin/activate
+```
+# On Windows:
+```
+  venv\Scripts\activate
+  pip install -r requirements.txt  # Note: Check project-specific requirements if no global requirements.txt exists
+```
+3. **Explore Projects**:
+   Explore Projects: Navigate to a project folder (e.g., `image-classifier/`) and follow its specific README for setup and running instructions.
+
+4. **Run a Sample from this repository**:
+   ```bash
+    cd <project-folder-name>  # Replace with actual project folder, e.g., image-classifier
+    python <script-name>.py  # Replace with actual script, e.g., train.py
+   ```
+
+ # 🤝 Contributing
+We love contributions from the community! 🌟 Whether it’s adding new projects, fixing bugs, or improving documentation, your input is welcome.
+
+  **Fork the repository 🍴**
+ 1. Create a new branch (`git checkout -b feature/your-feature`)
+ 2. Commit your changes (`git commit -m 'Add cool feature`)
+ 3. Push to the branch (`git push origin feature/your-feature`)
+ 4. Open a Pull Request `🚀`

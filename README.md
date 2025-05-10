@@ -99,7 +99,6 @@ Ready to dive into the world of AI? Follow these steps to set up the repository 
     cd <project-folder-name>  # Replace with actual project folder, e.g., image-classifier
     python <script-name>.py  # Replace with actual script, e.g., train.py
    ```
-
  # 🤝 Contributing
 We love contributions from the community! 🌟 Whether it’s adding new projects, fixing bugs, or improving documentation, your input is welcome.
 
@@ -108,3 +107,7 @@ We love contributions from the community! 🌟 Whether it’s adding new project
  2. Commit your changes (`git commit -m 'Add cool feature`)
  3. Push to the branch (`git push origin feature/your-feature`)
  4. Open a Pull Request `🚀`
+---
+<p align="center">
+  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzI5eDZxZDI1NDIwMTg2Zm9icWlsZ3lyb3NvMGdiYnVnbnVyZTU4YiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/7VzgMsB6FLCilwS30v/giphy.gif" alt="AI Footer Image" width="100%">
+</p>

@@ -7,7 +7,7 @@
 Welcome to the **AI & Machine Learning Hub**, your one-stop repository for cutting-edge projects in **Machine Learning**, **Deep Learning**, **Neural Networks**, and **Artificial Intelligence**! 🌟 This collection showcases innovative models, algorithms, and applications to solve real-world problems. Whether you're a beginner or a seasoned data scientist, dive in and explore the power of AI! 💻✨
 
 <p align="center">
-  <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExd3dqMG9keTd4Ymc3dWo1ZTlreGV1OXpqYW0zaDZkNXR5MHY5MG8zcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/AdtB8TtizElk0OrRGR/giphy.gif" alt="AI Animation" width="100%">
+  <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhkN2VqMjc2eWV5NzNnczBiYTUwOTRlZmdxZTE2dmszY3A3d3Q4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pOEbLRT4SwD35IELiQ/giphy.gif" alt="AI Animation" width="100%">
 </p>
 
 ---

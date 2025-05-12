@@ -8,7 +8,7 @@
 
 # 🚀 AI & Machine Learning Hub 🧠
 
-Welcome to the **AI & Machine Learning Hub**, your one-stop repository for cutting-edge projects in **Machine Learning**, **Deep Learning**, **Neural Networks**, and **Artificial Intelligence**! 🌟 This collection showcases innovative models, algorithms, and applications to solve real-world problems. Whether you're a beginner or a seasoned data scientist, dive in and explore the power of AI! 💻✨
+Welcome to the **AI & Machine Learning Hub**, your one-stop repository for cutting-edge projects in **Machine Learning**, **Deep Learning**, **Neural Networks**, and **Artificial Intelligence**! 🌟 This collection showcases innovative models and applications to solve real-world problems. Dive in and explore the power of AI! 💻✨
 
 <p align="center">
   <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExdDhkN2VqMjc2eWV5NzNnczBiYTUwOTRlZmdxZTE2dmszY3A3d3Q4YSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/pOEbLRT4SwD35IELiQ/giphy.gif" alt="AI Animation" style="height: 300px; width: 1000px;">
@@ -33,7 +33,6 @@ This repository is a curated collection of **AI-driven projects** that leverage 
 
 **Why explore this repo?**
 - 🧑‍💻 Hands-on implementations of state-of-the-art algorithms.
-- 📚 Well-documented code with tutorials for learners.
 - 🌈 Diverse applications, from computer vision to generative AI.
 - 💡 Open to contributions from the global AI community!
 
@@ -50,13 +49,11 @@ Here’s a glimpse of the projects you’ll find in this repository:
 
 | Project Name | Description | Tech Used | Status |
 |--------------|-------------|-----------|--------|
-| 🖼️ **Image Classifier** | A CNN-based model for classifying images into categories. | TensorFlow, Keras, Python | ✅ Completed |
+| 🖼️ **Image Classifier** | A CNN-based model for classifying images into categories. | TensorFlow, Keras, Python | 🛠️ In Progress |
 | 📝 **Text Summarizer** | A transformer-based NLP model for summarizing articles. | PyTorch, Hugging Face | 🛠️ In Progress |
-| 🎵 **Music Generator** | A GAN that generates unique music tracks. | TensorFlow, Magenta | ✅ Completed |
+| 🎵 **Music Generator** | A GAN that generates unique music tracks. | TensorFlow, Magenta | 🛠️ In Progress |
 | 🤖 **Chatbot** | A conversational AI using RNNs and attention mechanisms. | PyTorch, NLTK | 🛠️ In Progress |
-| 📈 **Stock Predictor** | A time-series model for stock price forecasting. | Scikit-learn, Pandas | ✅ Completed |
-
-> **Note**: Each project folder contains its own README with detailed setup instructions and datasets. Check them out! 📂
+| 📈 **Stock Predictor** | A time-series model for stock price forecasting. | Scikit-learn, Pandas | 🛠️ In Progress |
 
 ---
 

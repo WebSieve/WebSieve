@@ -67,6 +67,8 @@ This repository represents a comprehensive exploration of modern machine learnin
 
 </div>
 
+> Note : Some components are still missing and will be added in the future.
+
 A clean, educational PyTorch implementation of **DeepSeek V3's core architectural innovations**, pushing the boundaries of efficient transformer design.
 
 **🔑 Key Innovations:**

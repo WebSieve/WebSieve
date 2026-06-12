@@ -21,6 +21,8 @@ _From state-of-the-art transformer architectures to classical neural networks - 
 
 - [Overview](#-overview)
 - [Featured Projects](#-featured-projects)
+  - [Probabilistic_Models](#-Probabilistic_Models)
+  - [CIFAR-100_with_Vision_Transformer](#-CIFAR-100_with_Vision_Transformer)
   - [DeepSeek V3 Recreation](#-deepseek-v3-recreation)
   - [Transformer Summarizer](#-transformer-summarizer)
   - [Decoder-Only Transformer](#-decoder-only-transformer)
@@ -58,6 +60,47 @@ This repository represents a comprehensive exploration of modern machine learnin
 
 ## 🚀 Featured Projects
 
+### 🖼️ CIFAR-100 Vision Transformer
+
+<div align="center">
+
+[![Repository](https://img.shields.io/badge/Status-Complete-success?style=flat-square)](https://github.com/WebSieve/Cifar-100_with_Vision_Transformer)
+[![Architecture](https://img.shields.io/badge/Architecture-ViT%20%2B%20MoE-blueviolet?style=flat-square)](https://github.com/WebSieve/Cifar-100_with_Vision_Transformer)
+</div>
+
+> Note : Built entirely from scratch to develop deep core knowledge of modern transformer mechanisms rather than relying on high-level APIs.
+
+A state-of-the-art **Vision Transformer (ViT)** implemented from the ground up and optimized for CIFAR-100 image classification, featuring advanced sparsity and compression mechanisms.
+
+**⭐ Standout Features:**
+
+| Feature | Description |
+| :--- | :--- |
+| 🧠 **Mixture of Experts (MoE)** | Sparse computation with 8 experts, top-2 routing, and load balancing auxiliary loss |
+| 🗜️ **Multi-Head Latent Attention** | MLA implementation for 4x KV cache compression and memory efficiency |
+| ⚡ **Modern Activations** | SwiGLU feed-forward networks and RMSNorm for 15% faster normalization |
+| 🎛️ **Advanced Training** | Built-in support for Mixup, CutMix, label smoothing, and AMP |
+
+**📁 Core Components:**
+
+```text
+Cifar-100_with_Vision_Transformer/
+├── src/                    
+│   ├── attention.py         # Multi-Head Latent Attention mechanics
+│   ├── moe.py               # Expert routing and load balancing
+│   └── transformer.py       # Core ViT block architecture
+├── train.py                 # Full training loop with cosine LR
+└── evaluate.py              # Inference and metric evaluation
+```
+
+**💡 Technical Highlights:**
+
+- Custom patch embedding mechanism tailored for 32x32 image resolutions (4x4 patches).
+- Clean, modular codebase reflecting a strict "First Principles" engineering methodology.
+- Demonstrates performance scaling from ~75% (Baseline ViT) to ~79% Top-1 Accuracy with the integration of MLA and MoE techniques.
+
+---
+
 ### 🧬 DeepSeek V3 Recreation
 
 <div align="center">
@@ -67,17 +110,17 @@ This repository represents a comprehensive exploration of modern machine learnin
 
 </div>
 
-> Note : Some components are still missing and will be added in the future.
-
 A clean, educational PyTorch implementation of **DeepSeek V3's core architectural innovations**, pushing the boundaries of efficient transformer design.
 
 **🔑 Key Innovations:**
+
 - **Multi-Head Latent Attention (MLA)**: Low-rank key-value compression reducing KV cache by 4-8x
 - **Mixture of Experts (MoE)**: Sparse computation with top-k routing and load balancing
 - **RMS Normalization**: Faster and more stable than traditional LayerNorm
 - **Modular Design**: Clean separation of concerns for easy experimentation
 
 **📁 Components:**
+
 ```
 DeepSeek_V3_Recreation/
 ├── multi_head_latent_attention.py  # Efficient attention with compression
@@ -87,6 +130,7 @@ DeepSeek_V3_Recreation/
 ```
 
 **💡 Technical Highlights:**
+
 - LoRA-style K/V decomposition for memory efficiency
 - Separate RoPE and non-RoPE component handling
 - SwiGLU activation in expert networks
@@ -108,11 +152,13 @@ DeepSeek_V3_Recreation/
 An **encoder-based transformer** designed for text summarization and understanding tasks, featuring state-of-the-art attention mechanisms.
 
 **🎯 Purpose:**
+
 - Extractive and abstractive summarization
 - Document understanding and encoding
 - Semantic text representation
 
 **📦 Current Components:**
+
 ```
 Transformer_Summarizer/
 ├── Encoder.py                       # Core transformer encoder
@@ -121,6 +167,7 @@ Transformer_Summarizer/
 ```
 
 **🔧 Features:**
+
 - Multi-head latent attention for efficiency
 - Flexible encoder stack architecture
 - Support for various text encoding tasks
@@ -149,6 +196,7 @@ A **production-ready GPT-style transformer** built from scratch with modern arch
 | 💾 **Complete Training Pipeline** | Checkpointing, logging, learning rate scheduling |
 
 **📊 Training Capabilities:**
+
 - Custom sliding window tokenization
 - Efficient DataLoader implementation
 - AdamW optimization with cosine annealing
@@ -156,6 +204,7 @@ A **production-ready GPT-style transformer** built from scratch with modern arch
 - Validation loss tracking and early stopping
 
 **🎨 Generation Methods:**
+
 ```python
 # Temperature sampling
 output = model.generate(prompt, temperature=0.8)
@@ -183,12 +232,14 @@ A vast collection of **neural network implementations** spanning computer vision
 #### 🖼️ Computer Vision
 
 **Image Classification:**
+
 - **MNIST Digit Recognition**: CNN-based digit classifier with 99%+ accuracy
 - **CIFAR-10 Classification**: Multi-class image classification with data augmentation
 - **CIFAR-100 Classification**: Fine-grained image classification with 100 classes
 - **Transfer Learning**: Pre-trained model fine-tuning for custom datasets
 
 **Object Detection:**
+
 - Custom object detection implementations
 - YOLO-style architectures
 - Region-based CNN approaches
@@ -196,11 +247,13 @@ A vast collection of **neural network implementations** spanning computer vision
 #### 📝 Natural Language Processing
 
 **Text Classification:**
+
 - **Fake News Detection**: Multi-model ML approach with ensemble methods
 - **Sentiment Analysis**: LSTM and transformer-based classifiers
 - **Text Categorization**: Multi-class document classification
 
 **Advanced NLP:**
+
 - Positional embedding implementations
 - Custom tokenizer demonstrations (GPT-2)
 - Sequence-to-sequence models
@@ -208,12 +261,14 @@ A vast collection of **neural network implementations** spanning computer vision
 #### 🔢 Classical ML & Specialized Tasks
 
 **Classification Tasks:**
+
 - **Iris Classification**: Multi-layer perceptron for species classification
 - **Wine Classification**: Neural network for wine quality prediction
 - **Cover Type Classification**: Forest cover type prediction
 - **Higgs Boson Detection**: Binary classification for particle physics
 
 **Specialized Applications:**
+
 - **DNA Sequence Prediction**: Biological sequence modeling
 - **Sin Wave Modeling**: Time series regression with neural networks
 - **Cosine Function Approximation**: Function learning demonstrations
@@ -221,6 +276,7 @@ A vast collection of **neural network implementations** spanning computer vision
 #### 🏗️ Architecture Implementations
 
 **State-of-the-Art Models:**
+
 - Variational Autoencoders (VAE)
 - Gaussian Mixture Models (GMM)
 - Backpropagation from scratch
@@ -234,6 +290,7 @@ A vast collection of **neural network implementations** spanning computer vision
 
 | Architecture | Type | Key Features | Status |
 |-------------|------|--------------|--------|
+| **Cifar-100_with_Vision_Transformer** | ... | MoE, MLA, SwiGLU, RMSNorm | ✅ Complete |
 | **DeepSeek V3** | Decoder | MLA, MoE, RMSNorm | ✅ Active |
 | **GPT-Style Decoder** | Decoder | RoPE, SwiGLU, Causal Attention | ✅ Complete |
 | **Transformer Encoder** | Encoder | Multi-Head Attention, Feed-Forward | 🟡 In Progress |
@@ -257,6 +314,7 @@ A vast collection of **neural network implementations** spanning computer vision
 ## 📊 Applications & Use Cases
 
 ### 🎯 Computer Vision
+
 ```
 ✓ Image Classification (MNIST, CIFAR-10, CIFAR-100)
 ✓ Object Detection (Custom implementations)
@@ -265,6 +323,7 @@ A vast collection of **neural network implementations** spanning computer vision
 ```
 
 ### 💬 Natural Language Processing
+
 ```
 ✓ Text Generation (GPT-style models)
 ✓ Text Summarization (Encoder-based)
@@ -273,6 +332,7 @@ A vast collection of **neural network implementations** spanning computer vision
 ```
 
 ### 📈 Time Series & Regression
+
 ```
 ✓ Function Approximation (Sin, Cosine)
 ✓ Sequence Prediction
@@ -280,6 +340,7 @@ A vast collection of **neural network implementations** spanning computer vision
 ```
 
 ### 🔬 Research & Experimentation
+
 ```
 ✓ Architecture Ablation Studies
 ✓ Hyperparameter Optimization
@@ -325,6 +386,14 @@ A vast collection of **neural network implementations** spanning computer vision
 ```
 📁 Machine Learning Portfolio
 │
+|---🥇 Cifar-100_with_Vision_Transformer/
+|    ├── src/                    
+|    │   ├── attention.py         
+|    │   ├── moe.py               
+|    │   └── transformer.py       
+|    ├── train.py                 
+|    └── evaluate.py              
+|
 ├── 🧬 DeepSeek_V3_Recreation/
 │   ├── Multi-Head Latent Attention
 │   ├── Mixture of Experts
@@ -537,7 +606,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msahil2603@gmail.com)
 
-### ⭐ Star this repo if you find it helpful!
+### ⭐ Star this repo if you find it helpful
 
 </div>
 

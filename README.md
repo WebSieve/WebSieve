@@ -11,7 +11,7 @@
 
 _From state-of-the-art transformer architectures to classical neural networks - a journey through modern AI_
 
-[🚀 Projects](#-featured-projects) • [🏗️ Architecture](#️-architectures) • [📊 Applications](#-applications) • [🛠️ Technologies](#️-technologies)
+[🚀 Projects](#featured-projects) • [🏗️ Architecture](#architectures-implemented) • [📊 Applications](#applications--use-cases) • [🛠️ Technologies](#technologies--frameworks)
 
 </div>
 
@@ -19,22 +19,22 @@ _From state-of-the-art transformer architectures to classical neural networks - 
 
 ## 📖 Table of Contents
 
-- [Overview](#-overview)
-- [Featured Projects](#-featured-projects)
-  - [Probabilistic_Models](#-Probabilistic_Models)
-  - [CIFAR-100_with_Vision_Transformer](#-CIFAR-100_with_Vision_Transformer)
-  - [DeepSeek V3 Recreation](#-deepseek-v3-recreation)
-  - [Transformer Summarizer](#-transformer-summarizer)
-  - [Decoder-Only Transformer](#-decoder-only-transformer)
-  - [Neural Network Projects](#-neural-network-projects)
-- [Architectures Implemented](#️-architectures-implemented)
-- [Applications & Use Cases](#-applications--use-cases)
-- [Technologies & Frameworks](#️-technologies--frameworks)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Highlights & Achievements](#-highlights--achievements)
-- [Contributing](#-contributing)
-- [License](#-license)
+- [Overview](#overview)
+- [Featured Projects](#featured-projects)
+  - [Probabilistic Models](#probabilistic-models)
+  - [CIFAR-100 Vision Transformer](#cifar-100-vision-transformer)
+  - [DeepSeek V3 Recreation](#deepseek-v3-recreation)
+  - [Transformer Summarizer](#transformer-summarizer)
+  - [Decoder-Only Transformer](#decoder-only-transformer)
+  - [Neural Network Projects](#neural-network-projects)
+- [Architectures Implemented](#architectures-implemented)
+- [Applications & Use Cases](#applications--use-cases)
+- [Technologies & Frameworks](#technologies--frameworks)
+- [Project Structure](#project-structure)
+- [Getting Started](#getting-started)
+- [Highlights & Achievements](#highlights--achievements)
+- [Contributing](#contributing)
+- [License](#license)
 
 ---
 
@@ -59,6 +59,45 @@ This repository represents a comprehensive exploration of modern machine learnin
 ---
 
 ## 🚀 Featured Projects
+
+### 🎲 Probabilistic Models
+
+<div align="center">
+
+[![Repository](https://img.shields.io/badge/Status-Active-success?style=flat-square)](PPModels/)
+[![Framework](https://img.shields.io/badge/Framework-NumPy%20%2F%20SciPy-blueviolet?style=flat-square)](PPModels/)
+
+</div>
+
+Bayesian probabilistic models implemented from scratch using **NumPy** and **SciPy**, featuring conjugate priors for fully analytical posterior inference without MCMC.
+
+**📦 Models:**
+
+- **Beta-Binomial** — Sequential Bayesian updating for binary outcomes. `beta_binomial_model` class with prior, likelihood, posterior update, posterior predictive, and full moment computation.
+- **Dirichlet-Multinomial (Bayesian Naive Bayes)** — End-to-end text classifier using the Dirichlet-Multinomial compound distribution. `dmm` class with `fit`/`predict`/`predict_proba`, posterior mean/mode/variance per class, marginal density plotting, synthetic data generation, and built-in comparison against classic Multinomial Naive Bayes.
+
+**📁 Files:**
+
+```
+PPModels/
+├── pyproject.toml                                  # Project configuration
+├── Beta_Binomial_model/
+│   └── beta_bin_model.py                           # Beta-Binomial implementation + demo
+└── Dirichlet_Multinomial_Model/
+    ├── dirichlet_multinomial_model.py              # Dirichlet-Multinomial classifier
+    ├── doc.md                                      # Full mathematical derivation
+    └── demo.txt                                    # Sample data format
+```
+
+**💡 Technical Highlights:**
+
+- Pure NumPy/SciPy — no sklearn, PyMC, or deep learning frameworks used
+- Conjugate priors enable closed-form posterior updates — no MCMC or variational inference
+- Log-space computations via `scipy.special.gammaln` for numerical stability
+- Posterior predictive distributions integrate out latent parameters analytically
+- Visualization of marginal posterior densities and error-rate comparisons
+
+---
 
 ### 🖼️ CIFAR-100 Vision Transformer
 
@@ -290,7 +329,8 @@ A vast collection of **neural network implementations** spanning computer vision
 
 | Architecture | Type | Key Features | Status |
 |-------------|------|--------------|--------|
-| **Cifar-100_with_Vision_Transformer** | ... | MoE, MLA, SwiGLU, RMSNorm | ✅ Complete |
+| **Beta-Binomial / Dirichlet-Multinomial** | Bayesian | Conjugate Priors, Analytical Posterior, Predictive Distributions | ✅ Complete |
+| **Cifar-100_with_Vision_Transformer** | Vision | MoE, MLA, SwiGLU, RMSNorm | ✅ Complete |
 | **DeepSeek V3** | Decoder | MLA, MoE, RMSNorm | ✅ Active |
 | **GPT-Style Decoder** | Decoder | RoPE, SwiGLU, Causal Attention | ✅ Complete |
 | **Transformer Encoder** | Encoder | Multi-Head Attention, Feed-Forward | 🟡 In Progress |
@@ -386,14 +426,14 @@ A vast collection of **neural network implementations** spanning computer vision
 ```
 📁 Machine Learning Portfolio
 │
-|---🥇 Cifar-100_with_Vision_Transformer/
-|    ├── src/                    
-|    │   ├── attention.py         
-|    │   ├── moe.py               
-|    │   └── transformer.py       
-|    ├── train.py                 
-|    └── evaluate.py              
-|
+├── 🥉Cifar-100_with_Vision_Transformer/
+│   ├── src/                    
+│   │   ├── attention.py         
+│   │   ├── moe.py               
+│   │   └── transformer.py       
+│   ├── train.py                 
+│   └── evaluate.py              
+│
 ├── 🧬 DeepSeek_V3_Recreation/
 │   ├── Multi-Head Latent Attention
 │   ├── Mixture of Experts
@@ -410,6 +450,12 @@ A vast collection of **neural network implementations** spanning computer vision
 │   ├── Training Pipeline
 │   ├── Text Generation
 │   └── Sampling Strategies
+│
+├── 🎲 PPModels/
+│   ├── Beta-Binomial Model
+│   ├── Dirichlet-Multinomial Model
+│   ├── Bayesian Inference Pipeline
+│   └── Mathematical Documentation
 │
 ├── 🧠 Neural_Net_Projects/
 │   ├── Computer Vision
@@ -523,6 +569,24 @@ model = build_model()
 model.fit(X_train, y_train, epochs=10, validation_split=0.2)
 ```
 
+#### 4️⃣ Bayesian Inference with Probabilistic Models
+
+```python
+from PPModels.Beta_Binomial_model.beta_bin_model import beta_binomial_model
+
+# Beta-Binomial sequential updating
+model = beta_binomial_model(alpha=2, beta=2, error_coef=1e-10)
+
+# Observe 7 successes in 10 trials → update posterior
+model.posterior_updation(k_successes=7, n_trials=10)
+print(f"Posterior mean: {model.posterior_mean():.3f}")
+print(f"Posterior variance: {model.posterior_variance():.5f}")
+
+# Predict next 5 trials
+pred_mean = model.posterior_predictive_mean(n_future_trials=5)
+print(f"Expected successes in next 5 trials: {pred_mean:.2f}")
+```
+
 ---
 
 ## 🏆 Highlights & Achievements
@@ -549,6 +613,7 @@ model.fit(X_train, y_train, epochs=10, validation_split=0.2)
 - ✅ **Diverse Application Portfolio**: CV, NLP, time series, and specialized tasks
 - ✅ **Educational Quality**: Extensively documented code with clear explanations
 - ✅ **Modern Best Practices**: RoPE, SwiGLU, RMSNorm, and more
+- ✅ **Bayesian Inference Pipelines**: Two conjugate-prior models implemented from scratch with NumPy/SciPy
 - ✅ **Modular Design**: Reusable components for rapid experimentation
 
 ### 🎯 Notable Implementations
@@ -556,8 +621,9 @@ model.fit(X_train, y_train, epochs=10, validation_split=0.2)
 1. **Multi-Head Latent Attention**: Memory-efficient attention with 4-8x KV cache reduction
 2. **Mixture of Experts**: Sparse computation with intelligent routing
 3. **Rotary Position Embeddings**: Superior position encoding for transformers
-4. **Complete Training Infrastructure**: Checkpointing, logging, and evaluation pipelines
-5. **Diverse Neural Architectures**: CNNs, RNNs, VAEs, and more
+4. **Bayesian Probabilistic Models**: From-scratch conjugate inference with Beta-Binomial and Dirichlet-Multinomial
+5. **Complete Training Infrastructure**: Checkpointing, logging, and evaluation pipelines
+6. **Diverse Neural Architectures**: CNNs, RNNs, VAEs, and more
 
 ---
 

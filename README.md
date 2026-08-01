@@ -9,7 +9,7 @@
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-2.0+-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://tensorflow.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 
-_From state-of-the-art transformer architectures to classical neural networks - a journey through modern AI_
+_From state-of-the-art transformer architectures and classical neural networks to Probabilistic Models - a journey through modern AI_
 
 [🚀 Projects](#featured-projects) • [🏗️ Architecture](#architectures-implemented) • [📊 Applications](#applications--use-cases) • [🛠️ Technologies](#technologies--frameworks)
 
@@ -75,12 +75,16 @@ Bayesian probabilistic models implemented from scratch using **NumPy** and **Sci
 
 - **Beta-Binomial** — Sequential Bayesian updating for binary outcomes. `beta_binomial_model` class with prior, likelihood, posterior update, posterior predictive, and full moment computation.
 - **Dirichlet-Multinomial (Bayesian Naive Bayes)** — End-to-end text classifier using the Dirichlet-Multinomial compound distribution. `dmm` class with `fit`/`predict`/`predict_proba`, posterior mean/mode/variance per class, marginal density plotting, synthetic data generation, and built-in comparison against classic Multinomial Naive Bayes.
+- **Bayesian Naive Bayes** — Binary-feature classifier with Beta-Bernoulli likelihoods and a Dirichlet class prior. `BayesianNaiveBayes` class with `fit`/`predict_proba`/`predict`, posterior-mean estimation, and top-k mutual-information feature selection.
 
 **📁 Files:**
 
 ```
-PPModels/
+Probabilistic-Models/
 ├── pyproject.toml                                  # Project configuration
+├── BayesianNaiveBayes/
+│   ├── bayesian_nb.py                             # Bayesian Naive Bayes classifier + demo
+│   └── bayesian_nb_notes.md                       # Mathematical derivation
 ├── Beta_Binomial_model/
 │   └── beta_bin_model.py                           # Beta-Binomial implementation + demo
 └── Dirichlet_Multinomial_Model/
@@ -316,7 +320,7 @@ A vast collection of **neural network implementations** spanning computer vision
 
 **State-of-the-Art Models:**
 
-- Variational Autoencoders (VAE)
+- Variational Autoencoders (VAE) (will implement soon!)
 - Gaussian Mixture Models (GMM)
 - Backpropagation from scratch
 - Custom layer implementations
@@ -329,6 +333,7 @@ A vast collection of **neural network implementations** spanning computer vision
 
 | Architecture | Type | Key Features | Status |
 |-------------|------|--------------|--------|
+| **Bayesian Naive Bayes** | Bayesian | Beta-Bernoulli Likelihood, Dirichlet Prior, MI Feature Selection | ✅ Complete |
 | **Beta-Binomial / Dirichlet-Multinomial** | Bayesian | Conjugate Priors, Analytical Posterior, Predictive Distributions | ✅ Complete |
 | **Cifar-100_with_Vision_Transformer** | Vision | MoE, MLA, SwiGLU, RMSNorm | ✅ Complete |
 | **DeepSeek V3** | Decoder | MLA, MoE, RMSNorm | ✅ Active |
@@ -451,9 +456,10 @@ A vast collection of **neural network implementations** spanning computer vision
 │   ├── Text Generation
 │   └── Sampling Strategies
 │
-├── 🎲 PPModels/
+├── 🎲 Probabilistic-Models/
 │   ├── Beta-Binomial Model
 │   ├── Dirichlet-Multinomial Model
+│   ├── Bayesian Naive Bayes
 │   ├── Bayesian Inference Pipeline
 │   └── Mathematical Documentation
 │
@@ -504,7 +510,7 @@ CUDA (optional, for GPU acceleration)
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/ml-portfolio.git
+git clone https://github.com/WebSieve/ml-portfolio.git
 cd ml-portfolio
 
 # Create virtual environment
@@ -587,6 +593,19 @@ pred_mean = model.posterior_predictive_mean(n_future_trials=5)
 print(f"Expected successes in next 5 trials: {pred_mean:.2f}")
 ```
 
+#### 5️⃣ Bayesian Naive Bayes Classification
+
+```python
+from PPModels.BayesianNaiveBayes.bayesian_nb import BayesianNaiveBayes
+
+model = BayesianNaiveBayes(alpha=1.0, beta_0=1.0, beta_1=1.0)
+model.fit(X_train, y_train, top_k_features=10)
+
+# Soft class probabilities and hard labels
+proba = model.predict_proba(X_test)
+labels = model.predict(X_test)
+```
+
 ---
 
 ## 🏆 Highlights & Achievements
@@ -613,7 +632,8 @@ print(f"Expected successes in next 5 trials: {pred_mean:.2f}")
 - ✅ **Diverse Application Portfolio**: CV, NLP, time series, and specialized tasks
 - ✅ **Educational Quality**: Extensively documented code with clear explanations
 - ✅ **Modern Best Practices**: RoPE, SwiGLU, RMSNorm, and more
-- ✅ **Bayesian Inference Pipelines**: Two conjugate-prior models implemented from scratch with NumPy/SciPy
+- ✅ **Bayesian Inference Pipelines**: Three conjugate-prior models implemented from scratch with NumPy/SciPy
+- ✅ **Bayesian Naive Bayes with Feature Selection**: Beta-Bernoulli classifier with conjugate priors and mutual-information feature ranking
 - ✅ **Modular Design**: Reusable components for rapid experimentation
 
 ### 🎯 Notable Implementations
@@ -621,7 +641,7 @@ print(f"Expected successes in next 5 trials: {pred_mean:.2f}")
 1. **Multi-Head Latent Attention**: Memory-efficient attention with 4-8x KV cache reduction
 2. **Mixture of Experts**: Sparse computation with intelligent routing
 3. **Rotary Position Embeddings**: Superior position encoding for transformers
-4. **Bayesian Probabilistic Models**: From-scratch conjugate inference with Beta-Binomial and Dirichlet-Multinomial
+4. **Bayesian Probabilistic Models**: From-scratch conjugate inference with Beta-Binomial, Dirichlet-Multinomial, and Bayesian Naive Bayes
 5. **Complete Training Infrastructure**: Checkpointing, logging, and evaluation pipelines
 6. **Diverse Neural Architectures**: CNNs, RNNs, VAEs, and more
 
@@ -669,7 +689,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 <div align="center">
 
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github)](https://github.com/WebSieve)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/yourprofile)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:msahil2603@gmail.com)
 
 ### ⭐ Star this repo if you find it helpful

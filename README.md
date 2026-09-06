@@ -50,6 +50,8 @@ This repository represents a comprehensive exploration of modern machine learnin
 
 ### 🎯 What You'll Find Here
 
+- 🎲 **From-Scratch Probabilistic Models**: The flagship achievement — a complete Bayesian suite in `Probabilistic-Models/` (Beta-Binomial sequential updating, Dirichlet-Multinomial text classification, Bayesian Naive Bayes with mutual-information feature selection, and LDA/QDA generative classifiers) built on exact conjugate posteriors and log-space numerics, with zero reliance on sklearn or deep learning frameworks
+- 🏆 **Benchmarked, Not Just Built**: One-command evaluation pipelines producing decision-boundary visualizations, confusion matrices, and full accuracy/precision/recall/F1 reporting — LDA/QDA scoring up to **99.44%**, backed by 17 passing unit tests
 - 🧠 **Advanced Transformer Models**: From-scratch implementations of GPT-style decoders, BERT-style encoders, and innovative architectures
 - 🔬 **Research Reproductions**: Faithful recreations of papers like DeepSeek V3 with Multi-Head Latent Attention and Mixture of Experts
 - 📊 **Diverse Applications**: Computer vision, NLP, time series, classification, detection, and more
@@ -64,8 +66,8 @@ This repository represents a comprehensive exploration of modern machine learnin
 
 <div align="center">
 
-[![Repository](https://img.shields.io/badge/Status-Active-success?style=flat-square)](PPModels/)
-[![Framework](https://img.shields.io/badge/Framework-NumPy%20%2F%20SciPy-blueviolet?style=flat-square)](PPModels/)
+[![Repository](https://img.shields.io/badge/Status-Active-success?style=flat-square)](Probabilistic-Models/)
+[![Framework](https://img.shields.io/badge/Framework-NumPy%20%2F%20SciPy-blueviolet?style=flat-square)](Probabilistic-Models/)
 
 </div>
 
@@ -597,7 +599,7 @@ model.fit(X_train, y_train, epochs=10, validation_split=0.2)
 #### 4️⃣ Bayesian Inference with Probabilistic Models
 
 ```python
-from PPModels.Beta_Binomial_model.beta_bin_model import beta_binomial_model
+from Beta_Binomial_model.beta_bin_model import beta_binomial_model
 
 # Beta-Binomial sequential updating
 model = beta_binomial_model(alpha=2, beta=2, error_coef=1e-10)
@@ -615,7 +617,7 @@ print(f"Expected successes in next 5 trials: {pred_mean:.2f}")
 #### 5️⃣ Bayesian Naive Bayes Classification
 
 ```python
-from PPModels.BayesianNaiveBayes.bayesian_nb import BayesianNaiveBayes
+from BayesianNaiveBayes.bayesian_nb import BayesianNaiveBayes
 
 model = BayesianNaiveBayes(alpha=1.0, beta_0=1.0, beta_1=1.0)
 model.fit(X_train, y_train, top_k_features=10)
@@ -628,8 +630,8 @@ labels = model.predict(X_test)
 #### 6️⃣ Gaussian Discriminant Analysis (LDA/QDA)
 
 ```python
-from PPModels.Gaussian_Prob_Models.src.gaussian_prob_models.qda import QDA
-from PPModels.Gaussian_Prob_Models.src.gaussian_prob_models.datasets import generate_synthetic_classification_data
+from Gaussian_Prob_Models.src.gaussian_prob_models.qda import QDA
+from Gaussian_Prob_Models.src.gaussian_prob_models.datasets import generate_synthetic_classification_data
 
 # Synthetic data with distinct class covariances (QDA showcase)
 X, y = generate_synthetic_classification_data(dataset_type="unequal_cov")

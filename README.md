@@ -76,6 +76,7 @@ Bayesian probabilistic models implemented from scratch using **NumPy** and **Sci
 - **Beta-Binomial** — Sequential Bayesian updating for binary outcomes. `beta_binomial_model` class with prior, likelihood, posterior update, posterior predictive, and full moment computation.
 - **Dirichlet-Multinomial (Bayesian Naive Bayes)** — End-to-end text classifier using the Dirichlet-Multinomial compound distribution. `dmm` class with `fit`/`predict`/`predict_proba`, posterior mean/mode/variance per class, marginal density plotting, synthetic data generation, and built-in comparison against classic Multinomial Naive Bayes.
 - **Bayesian Naive Bayes** — Binary-feature classifier with Beta-Bernoulli likelihoods and a Dirichlet class prior. `BayesianNaiveBayes` class with `fit`/`predict_proba`/`predict`, posterior-mean estimation, and top-k mutual-information feature selection.
+- **Gaussian Discriminant Analysis (LDA / QDA)** — Generative Gaussian classifiers for tabular data. `QDA` class with `fit`/`predict`/`predict_proba`/`predict_log_proba` (per-class covariances, Mahalanobis + `slogdet` log-likelihoods normalized via `logsumexp`), `LDA` subclass with pooled-covariance `fit`, a shared `generate_synthetic_classification_data` generator (unequal/equal covariance, multiclass, high-dim profiles), and a one-command `run_pipeline` producing decision-boundary plots, confusion matrices, and accuracy/precision/recall/F1 scores. Benchmarks (600 samples/profile, 70/30 split): QDA **99.44%** on unequal covariances, LDA **99.44%** on equal covariances, ≥96.6% multiclass, ~90% in 5-D.
 
 **📁 Files:**
 
@@ -87,10 +88,24 @@ Probabilistic-Models/
 │   └── bayesian_nb_notes.md                       # Mathematical derivation
 ├── Beta_Binomial_model/
 │   └── beta_bin_model.py                           # Beta-Binomial implementation + demo
-└── Dirichlet_Multinomial_Model/
-    ├── dirichlet_multinomial_model.py              # Dirichlet-Multinomial classifier
-    ├── doc.md                                      # Full mathematical derivation
-    └── demo.txt                                    # Sample data format
+├── Dirichlet_Multinomial_Model/
+│   ├── dirichlet_multinomial_model.py              # Dirichlet-Multinomial classifier
+│   ├── doc.md                                      # Full mathematical derivation
+│   └── demo.txt                                    # Sample data format
+└── Gaussian_Prob_Models/
+    ├── src/gaussian_prob_models/
+    │   ├── qda.py                                 # QDA: fit, predict/proba
+    │   ├── lda.py                                 # LDA: pooled-covariance fit
+    │   ├── datasets.py                            # Synthetic data generator
+    │   ├── evaluate.py                            # Metrics + figures
+    │   ├── pipeline.py                            # One-command pipeline
+    │   ├── __init__.py                            # Public API
+    │   └── __main__.py                            # Module entry point
+    ├── data/generate_data.py                      # Data CLI shim
+    ├── tests/test_models.py                       # 17 unittest tests
+    ├── pyproject.toml                             # Package config
+    ├── requirements.txt                           # Pinned versions
+    └── README.md                                  # Math, usage, results
 ```
 
 **💡 Technical Highlights:**
@@ -100,6 +115,8 @@ Probabilistic-Models/
 - Log-space computations via `scipy.special.gammaln` for numerical stability
 - Posterior predictive distributions integrate out latent parameters analytically
 - Visualization of marginal posterior densities and error-rate comparisons
+- Gaussian class-conditionals with Mahalanobis/`slogdet` log-likelihoods normalized via `logsumexp`
+- Decision-boundary contours, confusion-matrix heatmaps, and macro precision/recall/F1 reporting
 
 ---
 
@@ -337,6 +354,7 @@ A vast collection of **neural network implementations** spanning computer vision
 | **Beta-Binomial / Dirichlet-Multinomial** | Bayesian | Conjugate Priors, Analytical Posterior, Predictive Distributions | ✅ Complete |
 | **Cifar-100_with_Vision_Transformer** | Vision | MoE, MLA, SwiGLU, RMSNorm | ✅ Complete |
 | **DeepSeek V3** | Decoder | MLA, MoE, RMSNorm | ✅ Active |
+| **Gaussian Discriminant Analysis (LDA/QDA)** | Generative | Gaussian Class-Conditionals, Pooled/Per-Class Covariance, Log-Space Posteriors | ✅ Complete |
 | **GPT-Style Decoder** | Decoder | RoPE, SwiGLU, Causal Attention | ✅ Complete |
 | **Transformer Encoder** | Encoder | Multi-Head Attention, Feed-Forward | 🟡 In Progress |
 | **CNN Architectures** | Vision | Conv Layers, Pooling, Batch Norm | ✅ Complete |
@@ -460,6 +478,7 @@ A vast collection of **neural network implementations** spanning computer vision
 │   ├── Beta-Binomial Model
 │   ├── Dirichlet-Multinomial Model
 │   ├── Bayesian Naive Bayes
+│   ├── Gaussian Discriminant Analysis (LDA/QDA)
 │   ├── Bayesian Inference Pipeline
 │   └── Mathematical Documentation
 │
@@ -606,6 +625,22 @@ proba = model.predict_proba(X_test)
 labels = model.predict(X_test)
 ```
 
+#### 6️⃣ Gaussian Discriminant Analysis (LDA/QDA)
+
+```python
+from PPModels.Gaussian_Prob_Models.src.gaussian_prob_models.qda import QDA
+from PPModels.Gaussian_Prob_Models.src.gaussian_prob_models.datasets import generate_synthetic_classification_data
+
+# Synthetic data with distinct class covariances (QDA showcase)
+X, y = generate_synthetic_classification_data(dataset_type="unequal_cov")
+
+model = QDA()
+model.fit(X, y)
+
+print(f"Train accuracy: {(model.predict(X) == y).mean():.3f}")
+print(model.predict_proba(X)[:3])  # posterior class probabilities
+```
+
 ---
 
 ## 🏆 Highlights & Achievements
@@ -634,6 +669,7 @@ labels = model.predict(X_test)
 - ✅ **Modern Best Practices**: RoPE, SwiGLU, RMSNorm, and more
 - ✅ **Bayesian Inference Pipelines**: Three conjugate-prior models implemented from scratch with NumPy/SciPy
 - ✅ **Bayesian Naive Bayes with Feature Selection**: Beta-Bernoulli classifier with conjugate priors and mutual-information feature ranking
+- ✅ **Gaussian Discriminant Analysis from Scratch**: LDA/QDA generative classifiers with log-space posteriors, one-command evaluation pipeline, and full precision/recall/F1 reporting
 - ✅ **Modular Design**: Reusable components for rapid experimentation
 
 ### 🎯 Notable Implementations
@@ -642,8 +678,9 @@ labels = model.predict(X_test)
 2. **Mixture of Experts**: Sparse computation with intelligent routing
 3. **Rotary Position Embeddings**: Superior position encoding for transformers
 4. **Bayesian Probabilistic Models**: From-scratch conjugate inference with Beta-Binomial, Dirichlet-Multinomial, and Bayesian Naive Bayes
-5. **Complete Training Infrastructure**: Checkpointing, logging, and evaluation pipelines
-6. **Diverse Neural Architectures**: CNNs, RNNs, VAEs, and more
+5. **Gaussian Discriminant Analysis (LDA/QDA)**: Generative Gaussian classifiers with per-class and pooled covariances, decision-boundary visualization, and precision/recall/F1 evaluation
+6. **Complete Training Infrastructure**: Checkpointing, logging, and evaluation pipelines
+7. **Diverse Neural Architectures**: CNNs, RNNs, VAEs, and more
 
 ---
 
